@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Like - Dislike</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <p class="like-dislike-msg"></p>
+    <section id="posts-container"></section>
+
+    <section id="react-post">
+      <button onclick="Like()" id="like">Like</button>
+      <button onclick="Dislike()" id="dislike">Dislike</button>
+    </section>
+    <section id="static-post">
+      <button onclick="Like_History()">Like History</button>
+      <button onclick="Dislike_History()">Dislike History</button>
+    </section>
+
+    <section id="show-history"></section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
